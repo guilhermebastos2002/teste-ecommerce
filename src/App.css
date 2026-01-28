@@ -29,7 +29,7 @@ button {
   cursor: pointer;
 }
 
-/* Nav */
+/* START NAVBAR */
 .nav {
   background-color: #fff;
   padding: 1rem;
@@ -122,3 +122,54 @@ nav ul li:hover {
 .menu-button {
   display: none;
 }
+
+/* END NAVBAR */
+
+/* START HEADER */
+header {
+  background-color: var(--primary-color);
+}
+
+header .inner-content {
+  max-width: 1600px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 4rem;
+  gap: 4rem;
+}
+
+header .left-side {
+  color: #fff;
+}
+
+header .left-side h2 {
+  font-size: 2.5rem;
+}
+
+header .left-side p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.see-more-btn {
+  background-color: var(--primary-color);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s;
+  display: flex;
+  max-width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-more-btn:hover {
+  background-color: var(--dark-primary-color);
+  max-width: 200px;
+}
+
+header .right-side img {
+  width: 100%;
+}
+/* END HEADER */
